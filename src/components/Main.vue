@@ -27,8 +27,6 @@ main{
   background-color: #1C1C1C;
   min-height: 150px;
   padding: 30px 0;
-  //bordo da togliere
-  border: 2px solid white;
 }
 
 </style>

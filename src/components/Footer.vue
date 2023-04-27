@@ -24,7 +24,7 @@ export default {
 
           <div class="col">
             <nav>
-              <h3>Dc Comics</h3>
+              <h4>Dc Comics</h4>
               <ul>
                 <li 
                   v-for="(link, index) in footerMenu.dcComics" 
@@ -35,7 +35,7 @@ export default {
               </ul>
             </nav>
             <nav>
-              <h3>Shop</h3>
+              <h4>Shop</h4>
               <ul>
                 <li 
                   v-for="(link, index) in footerMenu.shop" 
@@ -50,7 +50,7 @@ export default {
 
           <div class="col">
             <nav>
-              <h3>Dc</h3>
+              <h4>Dc</h4>
               <ul>
                 <li 
                   v-for="(link, index) in footerMenu.dc" 
@@ -64,7 +64,7 @@ export default {
 
           <div class="col">
             <nav>
-              <h3>Sites</h3>
+              <h4>Sites</h4>
               <ul>
                 <li 
                   v-for="(link, index) in footerMenu.sites" 
@@ -98,10 +98,13 @@ export default {
           <nav>
             <ul>
               <li 
-                v-for="(link, index) in footerIcon" 
+                v-for="(icon, index) in footerIcon" 
                 :key="index"
               >
-                <a :href="link.href"><img :src="link.src" alt=""></a></li>
+                <a :href="icon.href">
+                  <img :src="icon.image" alt="">
+                </a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -132,7 +135,7 @@ export default {
       .col{
         padding: 20px 20px 20px 0;
 
-        h3{
+        h4{
         text-transform: uppercase;
         padding: 10px 0;
         }
@@ -173,7 +176,7 @@ export default {
       }
       a{
         color: $secondary-color;
-        font-weight: 600;
+        font-size: 14px;
       }
     }
     .social{

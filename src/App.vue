@@ -4,6 +4,7 @@
 
 import Header from './components/Header.vue'
 import Main from './components/Main.vue'
+import CallToAction from './components/CallToAction.vue'
 import Footer from './components/Footer.vue'
 
 export default {
@@ -11,6 +12,7 @@ export default {
   components:{
     Header,
     Main,
+    CallToAction,
     Footer
   }
 }
@@ -21,6 +23,8 @@ export default {
   <Header/> 
 
   <Main/> 
+
+  <CallToAction/>
 
   <Footer/> 
 

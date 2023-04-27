@@ -11,7 +11,7 @@ const mainMenu = [
   },
   {
     href: "#",
-    text: "movie",
+    text: "movies",
     isActive: false
   },
   {
@@ -168,25 +168,53 @@ const footerMenu = {
 const footerIcon = [
   {
     href: "#",
-    src: "../assets/img/footer-facebook.png",
+    image: "src/assets/img/footer-facebook.png",
   },
   {
     href: "#",
-    src: "../assets/img/footer-twitter.png",
+    image: "src/assets/img/footer-twitter.png",
   },
   {
     href: "#",
-    src: "../assets/img/footer-youtube.png",
+    image: "src/assets/img/footer-youtube.png",
   },
   {
     href: "#",
-    src: "../assets/img/footer-pinterest.png",
+    image: "src/assets/img/footer-pinterest.png",
   },
   {
     href: "#",
-    src: "../assets/img/footer-periscope.png",
+    image: "src/assets/img/footer-periscope.png",
   }
-]
+];
+
+const buyAction = [
+  {
+    href: "#",
+    text:'digital comics',
+    image: "src/assets/img/buy-comics-digital-comics.png",
+  },
+  {
+    href: "#",
+    text:'dc merchandise',
+    image: "src/assets/img/buy-comics-merchandise.png",
+  },
+  {
+    href: "#",
+    text:'subscription',
+    image: "src/assets/img/buy-comics-shop-locator.png",
+  },
+  {
+    href: "#",
+    text:'comic shop locator',
+    image: "src/assets/img/buy-comics-subscriptions.png",
+  },
+  {
+    href: "#",
+    text:'dc power visa',
+    image: "src/assets/img/buy-dc-power-visa.svg",
+  }
+];
 
 
-export {mainMenu, footerMenu,footerIcon};
+export {mainMenu, footerMenu,footerIcon, buyAction};
