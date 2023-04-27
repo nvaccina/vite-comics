@@ -1,5 +1,5 @@
 <script>
-import {footerMenu} from "../data/menu";
+import {footerMenu, footerIcon} from "../data/menu";
 
 export default {
   name: 'Footer',
@@ -7,6 +7,7 @@ export default {
   data(){
     return{
       footerMenu,
+      footerIcon,
     }
   }
 
@@ -84,9 +85,32 @@ export default {
       </div>
 
     </div>
-    <div class="bottom">
+    <div class="bottom ht-100">
+
+      <div class="container ht-100">
+
+        <div class="button_sign">
+          <a href="#">SIGN-UP NOW!</a>
+        </div>
+
+        <div class="social">
+          <h4>FOLLOW US</h4>
+          <nav>
+            <ul>
+              <li 
+                v-for="(link, index) in footerIcon" 
+                :key="index"
+              >
+                <a :href="link.href"><img :src="link.src" alt=""></a></li>
+            </ul>
+          </nav>
+        </div>
+
+      </div>
         
     </div>
+
+
 
   </footer>
   
@@ -106,7 +130,7 @@ export default {
     .menu_footer{
       @include centerFlex('horizontal');
       .col{
-        padding: 20px 20px;
+        padding: 20px 20px 20px 0;
 
         h3{
         text-transform: uppercase;
@@ -120,7 +144,6 @@ export default {
             text-decoration: underline;
           }
         }
-      
       }
     }
     .big_logo{
@@ -132,11 +155,47 @@ export default {
         width: 450px;
       }
     }
-    
-    
-
+  } 
+}
+.bottom{
+  background-color: #303030;
+  .container{
+    @include centerFlex('between');
+    .button_sign{
+      cursor: pointer;
+      padding: 10px;
+      border: 2px solid $primary-color;
+      &:hover{
+        background-color: $secondary-color;
+        a{
+          color: $primary-color;
+        }
+      }
+      a{
+        color: $secondary-color;
+        font-weight: 600;
+      }
+    }
+    .social{
+      h4{
+        color: $primary-color;
+        font-weight: 700;
+      }
+      nav{
+        ul{
+          @include centerFlex('both');
+          a{
+            @include centerFlex('vertical');
+            padding: 0 10px;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 12px;
+            
+          }
+        }
+      
+    }
+    }
   }
-  
-  
 }
 </style>

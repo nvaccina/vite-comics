@@ -163,6 +163,30 @@ const footerMenu = {
       text: "DC Power Visa",
     }
   ]
-}
+};
 
-export {mainMenu, footerMenu};
+const footerIcon = [
+  {
+    href: "#",
+    src: "../assets/img/footer-facebook.png",
+  },
+  {
+    href: "#",
+    src: "../assets/img/footer-twitter.png",
+  },
+  {
+    href: "#",
+    src: "../assets/img/footer-youtube.png",
+  },
+  {
+    href: "#",
+    src: "../assets/img/footer-pinterest.png",
+  },
+  {
+    href: "#",
+    src: "../assets/img/footer-periscope.png",
+  }
+]
+
+
+export {mainMenu, footerMenu,footerIcon};
