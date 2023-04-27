@@ -19,13 +19,16 @@ export default {
 
 
 <style lang="scss" scoped>
-@use '../scss/general/variables' as *;
+@use '../scss/general/general' as *;
 @use '../scss/general/mixin' as *;
+@use '../scss/general/variables' as *;
 
 main{
   background-color: #1C1C1C;
   min-height: 150px;
   padding: 30px 0;
+  //bordo da togliere
+  border: 2px solid white;
 }
 
 </style>

@@ -32,7 +32,7 @@ export default {
           >
             <a 
               class="ht-80"
-              href="link.href" 
+              :href="link.href" 
               :class="{'active' : link.isActive}"
               >{{ link.text }}</a>
           </li>

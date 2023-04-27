@@ -51,4 +51,118 @@ const mainMenu = [
   }  
 ];
 
-export {mainMenu};
+const footerMenu = {
+  dcComics: [
+    {
+      href: "#",
+      text: "Characters",
+    },
+    {
+      href: "#",
+      text: "Comics",
+    },
+    {
+      href: "#",
+      text: "Movie",
+    },
+    {
+      href: "#",
+      text: "Tv",
+    },
+    {
+      href: "#",
+      text: "Games",
+    },
+    {
+      href: "#",
+      text: "Video",
+    },
+    {
+      href: "#",
+      text: "News",
+    }
+  ],
+
+  shop: [
+    {
+      href: "#",
+      text: "Shop DC",
+    },
+    {
+      href: "#",
+      text: "Shop DC Collectibles",
+    },
+  ],
+
+  dc: [
+    {
+      href: "#",
+      text: "Therms Of Use",
+    },
+    {
+      href: "#",
+      text: "Privacy Policy (New)",
+    },
+    {
+      href: "#",
+      text: "Ad Choices",
+    },
+    {
+      href: "#",
+      text: "Advertising",
+    },
+    {
+      href: "#",
+      text: "Jobs",
+    },
+    {
+      href: "#",
+      text: "Subscriptions",
+    },
+    {
+      href: "#",
+      text: "Talent Workshops",
+    },
+    {
+      href: "#",
+      text: "CPSC Certificates",
+    },
+    {
+      href: "#",
+      text: "Ratings",
+    },
+    {
+      href: "#",
+      text: "Shop Help",
+    },
+    {
+      href: "#",
+      text: "Contact Us",
+    },
+  ],
+
+  sites: [
+    {
+      href: "#",
+      text: "DC",
+    },
+    {
+      href: "#",
+      text: "MAD Magazine",
+    },
+    {
+      href: "#",
+      text: "DC Kids",
+    },
+    {
+      href: "#",
+      text: "DC Universe",
+    },
+    {
+      href: "#",
+      text: "DC Power Visa",
+    }
+  ]
+}
+
+export {mainMenu, footerMenu};
