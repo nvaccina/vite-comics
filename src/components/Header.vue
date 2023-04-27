@@ -53,7 +53,6 @@ export default {
 @use '../scss/general/variables' as *;
 
 header{
-  text-align: center;
   .container{
     @include centerFlex('between');
     height: 100%;

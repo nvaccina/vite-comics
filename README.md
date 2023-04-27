@@ -11,4 +11,5 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone
 
 # Steps
 - Creo la base del progetto con i componenti principali e inizio a dare classi generali;
-- Header: Creo la struttura e il menu dinamico tramite i data;
+- Header: Creo la struttura e il main-menu dinamico tramite i data;
+- Main: creare il componente main;
