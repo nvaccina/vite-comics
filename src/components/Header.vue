@@ -17,21 +17,21 @@ export default {
 
 <template>
   <header>
-    <div class="container">
+    <div class="container ht-80">
 
       <div class="logo">
         <img src="../assets/img/dc-logo.png" alt="Logo Dc">
       </div>
 
-      <nav class="ht-100">
-        <ul class="ht-100">
+      <nav class="ht-80">
+        <ul class="ht-80">
           <li 
-            class="ht-100"
+            class="ht-80"
             v-for="(link, index) in mainMenu" 
             :key="index"
           >
             <a 
-              class="ht-100"
+              class="ht-80"
               href="link.href" 
               :class="{'active' : link.isActive}"
               >{{ link.text }}</a>
@@ -54,7 +54,6 @@ export default {
 
 header{
   text-align: center;
-  height: 100px;
   .container{
     @include centerFlex('between');
     height: 100%;
@@ -65,16 +64,17 @@ header{
       ul{
         @include centerFlex('both');
         a{
-          display: inline-block;
-          padding: 10px;
+          @include centerFlex('vertical');
+          padding: 0 10px;
           text-transform: uppercase;
           font-weight: 600;
+          font-size: 12px;
           color: #464646;
-          margin-bottom: 3px solid white;
+          border-bottom: 3px solid white;
           &:hover,
           &.active{
             color: $primary-color;
-            margin-bottom: 3px solid $primary-color;
+            border-color: $primary-color;
         }
 
         }
