@@ -6,3 +6,9 @@ Quando la struttura a macroblocchi è pronta, popolate le voci di menu dinamicam
 Per oggi diamo priorità alla struttura: quando è tutto bello solido, passiamo al Sass!<br>
 Bonus:<br>
 Creare un componente aggiuntivo per gestire la fascia azzurra con le icone
+<br>
+<br>
+
+# Steps
+- Creo la base del progetto con i componenti principali e inizio a dare classi generali;
+- Header: Creo la struttura e il menu dinamico tramite i data;
