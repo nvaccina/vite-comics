@@ -91,7 +91,7 @@ const footerMenu = {
     {
       href: "#",
       text: "Shop DC Collectibles",
-    },
+    }
   ],
 
   dc: [

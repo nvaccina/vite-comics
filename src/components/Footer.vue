@@ -126,7 +126,7 @@ export default {
 @use '../scss/general/variables' as *;
 
 .top{
-  max-height: 300px;
+  min-height: 300px;
   background-image: url(../assets/img/footer-bg.jpg);
   .container{
     @include centerFlex('between');
@@ -142,8 +142,7 @@ export default {
           color: #959595;
           font-size: 12px;
           &:hover{
-            color: $secondary-color;
-            text-decoration: underline;
+            color: $primary-color;
           }
         }
       }
@@ -193,7 +192,9 @@ export default {
             @include centerFlex('vertical');
             padding: 0 10px;
             width: 50px;
-            
+            &:hover{
+              filter: invert(200%) brightness(200%);
+            }
           }
         }
       

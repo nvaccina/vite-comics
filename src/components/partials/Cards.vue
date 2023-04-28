@@ -26,9 +26,14 @@ export default {
 @use '../../scss/general/variables' as *;
 
 .card{
+  cursor: pointer;
   width: calc(100% / 6 - 30px);
   min-height: 100px;
   margin: 15px;
+  border:3px solid transparent;
+  &:hover{
+    border-color: $primary-color;
+  }
   .image_container{
     height: 200px;
     overflow: hidden;
@@ -38,6 +43,7 @@ export default {
     font-size: 12px;
     color: $secondary-color;
     padding-top: 10px;
+    padding-bottom: 5px;
 
   }
 }

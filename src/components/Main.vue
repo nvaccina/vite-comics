@@ -74,7 +74,7 @@ main{
       text-align: center;
       cursor: pointer;
       font-weight: 700;
-      padding: 5px 30px;
+      padding: 5px 40px;
       background-color: $primary-color;
       &:hover{
         background-color: $secondary-color;
@@ -84,7 +84,7 @@ main{
       }
       a{
         color: $secondary-color;
-        font-size: 13px;
+        font-size: 12px;
       }
     }
   }

@@ -61,6 +61,9 @@ header{
     height: 100%;
     .logo{
       width: 65px;
+      &:hover{
+        filter: brightness(10%);
+      }
     }
     nav{
       ul{
