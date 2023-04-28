@@ -31,7 +31,9 @@ export default {
           :image="card.thumb"
           :nameSeries="card.series"
         />
-
+      </div>
+      <div class="button_load">
+          <a href="#">LOAD MORE</a>
       </div>
     </div>
   </main>
@@ -46,11 +48,10 @@ export default {
 
 main{
   background-color: #1C1C1C;
-  min-height: 150px;
   padding: 30px 0;
   .container{
     position: relative;
-    
+
     h4{
       position: absolute;
       top: -50px;
@@ -62,7 +63,29 @@ main{
     .cards-wrapper{
       display: flex;
       flex-wrap: wrap;
+      margin-bottom: 45px;
       
+    }
+    .button_load{
+      position: absolute;
+      left: 50%;
+      bottom: -50px;
+      transform: translate(-50%);
+      text-align: center;
+      cursor: pointer;
+      font-weight: 700;
+      padding: 5px 30px;
+      background-color: $primary-color;
+      &:hover{
+        background-color: $secondary-color;
+        a{
+          color: $primary-color;
+        }
+      }
+      a{
+        color: $secondary-color;
+        font-size: 13px;
+      }
     }
   }
 }

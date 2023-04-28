@@ -20,7 +20,10 @@ export default {
     <div class="container ht-80">
 
       <div class="logo">
-        <img src="../assets/img/dc-logo.png" alt="Logo Dc">
+        <a href="#">
+          <img src="../assets/img/dc-logo.png" alt="Logo Dc">
+        </a>
+        
       </div>
 
       <nav class="ht-80">

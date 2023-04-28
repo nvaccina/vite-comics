@@ -3,6 +3,7 @@
 <script>
 
 import Header from './components/Header.vue'
+import Jumbotron from './components/Jumbotron.vue'
 import Main from './components/Main.vue'
 import CallToAction from './components/CallToAction.vue'
 import Footer from './components/Footer.vue'
@@ -11,6 +12,7 @@ export default {
   name: 'App',
   components:{
     Header,
+    Jumbotron,
     Main,
     CallToAction,
     Footer
@@ -21,6 +23,8 @@ export default {
 <template>
 
   <Header/> 
+
+  <Jumbotron/> 
 
   <Main/> 
 

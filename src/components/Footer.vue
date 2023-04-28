@@ -134,12 +134,10 @@ export default {
       @include centerFlex('horizontal');
       .col{
         padding: 20px 20px 20px 0;
-
         h4{
         text-transform: uppercase;
         padding: 10px 0;
         }
-        
         a{
           color: #959595;
           font-size: 12px;

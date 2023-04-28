@@ -18,3 +18,5 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone
 - Creazione call to action con immagini;
 - Aggiunta contenitore cards-wrapper e creazione componente cards;
 - Ciclato il componente cards per creare tutte le card delle series;
+- Aggiunta pulsante main;
+- Creazione componente Jumbotron;
