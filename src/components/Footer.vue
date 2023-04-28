@@ -144,6 +144,7 @@ export default {
           color: #959595;
           font-size: 12px;
           &:hover{
+            color: $secondary-color;
             text-decoration: underline;
           }
         }

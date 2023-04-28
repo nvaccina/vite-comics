@@ -16,3 +16,5 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone
 - Creazione del footer: menu-top con logo grande;
 - Creazione footer parte botoom con bottone e icone social;
 - Creazione call to action con immagini;
+- Aggiunta contenitore cards-wrapper e creazione componente cards;
+- Ciclato il componente cards per creare tutte le card delle series;
