@@ -202,12 +202,12 @@ const buyAction = [
   {
     href: "#",
     text:'subscription',
-    image: "src/assets/img/buy-comics-shop-locator.png",
+    image: "src/assets/img/buy-comics-subscriptions.png",
   },
   {
     href: "#",
     text:'comic shop locator',
-    image: "src/assets/img/buy-comics-subscriptions.png",
+    image: "src/assets/img/buy-comics-shop-locator.png",
   },
   {
     href: "#",

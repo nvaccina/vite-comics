@@ -25,7 +25,7 @@ export default {
           >
             <a :href="link.href">
               <img :src="link.image" alt="">
-              <span>{{ link.text }}</span>
+              <p>{{ link.text }}</p>
             </a>
           </li>
         </ul>
@@ -43,6 +43,7 @@ export default {
 @use '../scss/general/variables' as *;
 
 .action{
+  @include centerFlex('both');
   background-color: $primary-color;
   min-height: 150px;
   padding: 30px 0;
@@ -52,11 +53,15 @@ export default {
       margin: 0 20px;
       a{
         @include centerFlex('vertical');
-        width: 40px ;
-        height: 40px;
-        
+
         img{
-          height: 100%;
+          width: 40px ;
+        }
+        p{
+          text-transform: uppercase;
+          color: $secondary-color;
+          font-size: 12px;
+          padding: 0 10px;
         }
     }
     }

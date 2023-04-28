@@ -94,7 +94,7 @@ export default {
         </div>
 
         <div class="social">
-          <h4>FOLLOW US</h4>
+          <h4>follow us</h4>
           <nav>
             <ul>
               <li 
@@ -180,9 +180,12 @@ export default {
       }
     }
     .social{
+      @include centerFlex('both');
       h4{
         color: $primary-color;
         font-weight: 700;
+        text-transform: uppercase;
+        padding-right: 10px
       }
       nav{
         ul{
@@ -190,9 +193,7 @@ export default {
           a{
             @include centerFlex('vertical');
             padding: 0 10px;
-            text-transform: uppercase;
-            font-weight: 600;
-            font-size: 12px;
+            width: 50px;
             
           }
         }

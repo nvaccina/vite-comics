@@ -64,12 +64,12 @@ header{
         @include centerFlex('both');
         a{
           @include centerFlex('vertical');
-          padding: 0 10px;
+          margin: 0 10px;
           text-transform: uppercase;
           font-weight: 600;
           font-size: 12px;
           color: #464646;
-          border-bottom: 3px solid white;
+          border-bottom: 4px solid white;
           &:hover,
           &.active{
             color: $primary-color;

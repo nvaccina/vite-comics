@@ -15,3 +15,4 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone
 - Main: creare il componente main;
 - Creazione del footer: menu-top con logo grande;
 - Creazione footer parte botoom con bottone e icone social;
+- Creazione call to action con immagini;
