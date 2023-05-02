@@ -51,13 +51,9 @@ export default {
     @include centerFlex('both');
     li{
       margin: 0 20px;
+      transition: all .2s;
       &:hover{
-        img{
-          width: 45px;
-        }
-        p{
-          font-size: 14px;
-        }
+        transform: scale(1.1)
       }
       a{
         @include centerFlex('vertical');
